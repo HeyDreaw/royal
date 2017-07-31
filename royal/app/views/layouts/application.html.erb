@@ -25,8 +25,8 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse navbar-right">
               <ul class="nav navbar-nav">
-                <li><a href="#about">Login</a></li>
-                <li><a href="#contact">Sign-up</a></li>
+                <li><%= link_to 'Login', static_pages_login_path %></li>
+                <li><%= link_to 'Sign-up', static_pages_signup_path %></li>
               </ul>
             </div>
           </div>
@@ -35,7 +35,7 @@
       </div>
     </div>
 <%= yield %>
-     <footer>
+     <footer class="footer">
         <p class="pull-right"><a href="#">Back to top</a></p>
         <p>&copy; 2017 &middot; Made with &#x2665 by <a href="http://heydreaw.com/">Heydreaw</a></p>
       </footer>

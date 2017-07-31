@@ -18,3 +18,8 @@
     background: transparent;
     border: none;
 }
+
+.footer {
+   bottom: 0;
+    padding: .5em
+}
